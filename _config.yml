@@ -1,0 +1,21 @@
+# Site settings
+title: 
+header-img: img/home-bg.jpg
+email: abccdd@gmail.com
+description: "startbootstrap-agency"
+baseurl: "/angelspa"
+url: "http://moreless.github.io"
+twitter_username: moreless
+github_username:  myahmao
+facebook_username:  ahyong@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems:
+    - jekyll-sitemap
+    - jekyll-paginate
